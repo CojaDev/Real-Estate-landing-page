@@ -1,0 +1,72 @@
+#hero {
+  background: linear-gradient(60deg, rgba(0, 0, 0, 0.463), rgba(0, 0, 0, 0.559)),
+    url('/img/gallery-big-01.jpg') center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  transition: background-image 0.5s ease-in-out;
+  position: relative;
+  .naslov {
+    margin-top: 300px;
+    z-index: 2;
+
+    label {
+      margin-top: 20px;
+      margin-bottom: 15px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+  }
+
+  .input-group {
+    z-index: 2;
+    form {
+      width: 100%;
+      position: relative;
+    }
+    #HeroEmail {
+      width: calc(100% - 40px);
+      max-width: 400px;
+      height: 40px;
+      padding: 10px;
+      font-size: 13px;
+      background-color: white;
+      transition: all 0.2s ease-in-out;
+      border: 0;
+      &:focus {
+        outline: none;
+      }
+    }
+    #HeroSubmit {
+      position: absolute;
+      height: 40px;
+      width: 40px;
+      margin-left: -10px;
+      background-color: white;
+      border: 0;
+      transition: all 0.2s ease-in-out;
+      font-size: 20px;
+
+      &:hover {
+        font-weight: 900;
+      }
+    }
+  }
+
+  .carousel {
+    user-select: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    overflow: hidden;
+    img {
+      filter: brightness(0.4);
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+    }
+  }
+}

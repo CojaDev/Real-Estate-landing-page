@@ -1,0 +1,37 @@
+#about {
+  width: 100vw;
+  height: auto;
+  color: black;
+
+  padding-bottom: 70px;
+
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  p {
+    opacity: 0.5;
+    line-height: 20px;
+    font-size: 13px;
+  }
+  ul {
+    padding: 21px;
+    padding-right: 25px;
+    li {
+      font-size: 13px;
+      margin-bottom: 10px;
+      font-weight: 300;
+    }
+  }
+  .img-container {
+    background-color: black;
+    margin-bottom: 10px;
+  }
+  img {
+    max-width: 100%;
+    position: relative;
+
+    opacity: 0.5;
+  }
+}

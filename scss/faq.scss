@@ -1,0 +1,197 @@
+#faq {
+  background-color: white;
+  color: black;
+
+  .text-holder {
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(242, 242, 242);
+    position: relative;
+    overflow: hidden;
+    max-height: 55px;
+    transition: all 0.4s ease-in-out;
+
+    .sign {
+      color: black;
+      font-size: 30px;
+      align-self: flex-end;
+      cursor: pointer;
+      user-select: none;
+      opacity: 0.8;
+    }
+
+    h2 {
+      font-size: 14px;
+      position: relative;
+      margin-bottom: 30px;
+      align-self: flex-start;
+    }
+
+    .naslov {
+      display: flex;
+      height: 55px;
+      width: 100%;
+      justify-content: space-between;
+      align-items: start;
+    }
+
+    p {
+      font-size: 13px;
+      opacity: 0.5;
+    }
+
+    &.activee {
+      max-height: 170px;
+    }
+  }
+  .subscribe {
+    width: 100%;
+    padding: 40px 20px;
+    position: relative;
+    border: 15px solid #f2f3f3;
+    h2 {
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    form {
+      position: relative;
+    }
+    #faqEmail {
+      border: 0;
+      font-size: 13px;
+      padding: 5px;
+      margin-bottom: 5px;
+      border-bottom: 2px solid #f2f2f2;
+      width: 100%;
+      &:focus {
+        outline: none;
+      }
+    }
+    #faqSubmit {
+      position: absolute;
+      right: 0;
+      border: 0;
+      background-color: transparent;
+    }
+    p {
+      opacity: 0.5;
+      font-size: 13px;
+    }
+  }
+
+  .slider {
+    width: 100%;
+    min-height: 220px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    position: relative;
+    color: white;
+    margin-top: 50px;
+  }
+
+  .slider-item {
+    width: 100%;
+    height: 100%;
+    display: none;
+    text-align: left;
+    padding: 50px 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    line-height: 22px;
+
+    h2 {
+      text-align: justify;
+      font-size: 22px;
+    }
+    h3 {
+      font-size: 14px;
+      opacity: 0.8;
+    }
+    p {
+      font-size: 12px;
+      opacity: 0.7;
+    }
+    h6 {
+      position: absolute;
+      font-style: italic;
+      left: 172px;
+      top: 18%;
+      transform: translateY(-18%);
+      font-size: 50px;
+    }
+    h5 {
+      position: absolute;
+      font-style: italic;
+      right: 173px;
+      top: 18%;
+      transform: translateY(-18%) scaleX(-1);
+      font-size: 50px;
+    }
+  }
+
+  .slider-item.active {
+    display: block;
+    opacity: 1;
+  }
+
+  button {
+    position: absolute;
+    margin-top: 10px;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 100% 20px;
+    font-size: 50px;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    transition: color 0.2s ease;
+    transition: font-size 0.1 ease;
+    &:hover {
+      color: rgb(207, 207, 207);
+      background-color: rgba(0, 0, 0, 0.093);
+    }
+    &:active {
+      font-size: 45px;
+    }
+    &#nextButton {
+      right: 0;
+    }
+    &#prevButton {
+      left: 0;
+    }
+  }
+}
+@media (max-width: 768px) {
+  #faq .slider-item {
+    padding: 20px; /* Adjust padding for smaller screens */
+
+    h2 {
+      font-size: 18px; /* Adjust font size for h2 on smaller screens */
+    }
+
+    h3 {
+      font-size: 12px; /* Adjust font size for h3 on smaller screens */
+    }
+
+    p {
+      font-size: 10px; /* Adjust font size for p on smaller screens */
+    }
+
+    h6,
+    h5 {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+  #faq .slider {
+    button {
+      top: 95%;
+      transform: translateY(-95%);
+    }
+  }
+}

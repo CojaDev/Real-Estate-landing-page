@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Propper</title>
+    <link rel="icon" href="https://fav.farm/🔥" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/8c4cda093e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#Navigation">
+    <!-- Navbar -->
+    <nav
+      id="Navigation"
+      class="navbar navbar-dark navbar-expand-lg nav fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand text-white fw-bold fs-4" href="#">Propper.</a>
+        <button
+          class="navbar-toggler text-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Nav Bar-->
+    <!-- Hero Section  -->
+    <section id="hero" class="shadow">
+      <!-- Carousel -->
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img
+              src="img/gallery-big-01.jpg"
+              draggable="false"
+              class="d-block w-100"
+              alt="img1"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img
+              src="img/gallery-big-02.jpg"
+              draggable="false"
+              class="d-block w-100"
+              alt="img2"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img
+              src="img/gallery-big-03.jpg"
+              draggable="false"
+              class="d-block w-100"
+              alt="img3"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img
+              src="img/gallery-big-04.jpg"
+              draggable="false"
+              class="d-block w-100"
+              alt="img4"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- Carousel-End -->
+      <div class="container">
+        <div class="row">
+          <div class="naslov col-lg-7 col-md-5 col-sm-12">
+            <h1 class="display-2 fw-bold">
+              Get Ready.<br />
+              We're finishing!
+            </h1>
+            <label for="HeroEmail">Enter your email for the latest news</label>
+          </div>
+          <!-- /naslov -->
+        </div>
+        <div class="row">
+          <div class="col-md-7 col-sm-10">
+            <div class="input-group">
+              <form>
+                <input type="text" id="HeroEmail" placeholder="Your Email" />
+                <input id="HeroSubmit" type="submit" value="→" />
+              </form>
+            </div>
+            <!-- /input-group -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End-Hero -->
+    <!-- About -->
+    <section id="about" class="shadow">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-sm-10 header">
+            <h2>About the project.</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <h3>Place where you find yourself</h3>
+            <p>
+              Nam in sodales massa. Donec at ullamcorper diam. Pellentesque
+              habitant morbi tristique senectus et netus et malesuada fames ac
+              turpis egestas. Vivamus et ornare leo, a commodo tellus.
+              Suspendisse potenti. Ut posuere viverra lectus non scelerisque.
+            </p>
+            <ul>
+              <li>Quiet and peaceful location near nature</li>
+              <li>Shopping and fitness center right inside the complex</li>
+              <li>Lot of parking places, even for your visitors</li>
+              <li>Many play areas for your kids</li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <h3>Video presentation</h3>
+            <div class="img-container">
+              <img src="img/image-video.jpg" draggable="false" alt="video" />
+            </div>
+            <p>Let’s check the benefits of this project from the architect</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About-End -->
+    <!-- Stages -->
+    <section id="stages">
+      <div class="container">
+        <div class="row d-flex justify-content-evenly">
+          <div class="col-md-3 col-sm-12 stage-margin">
+            <div class="icon-check">✓</div>
+            <div class="info">
+              <p>1. Stage</p>
+              <h2>Planning</h2>
+              <h3>Completed</h3>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12 stage-margin">
+            <div class="icon-check">✓</div>
+            <div class="info">
+              <p>2. Stage</p>
+              <h2>Building</h2>
+              <h3>Completed</h3>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12 stage-margin">
+            <div class="icon-check wait">&#10711;</div>
+            <div class="info">
+              <p>3. Stage</p>
+              <h2>Finishing works</h2>
+              <h3>In progress</h3>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12 stage-margin">
+            <div class="icon-check dnf">X</div>
+            <div class="info dnf">
+              <p>4. Stage</p>
+              <h2>Project done</h2>
+              <h3>Not completed</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Stages-End -->
+    <!-- Design -->
+    <section id="design">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 content">
+            <h6 class="topText left">Architecture & Design</h6>
+            <div
+              class="col-md-6 col-sm-12 me-lg-5 me-md-0 ps-lg-2 ps-sm-0 mt-3"
+            >
+              <img src="img/gallery-01.jpg" alt="img1" />
+            </div>
+            <div class="col-md-6 col-sm-12 p-2">
+              <h2>High quality materials</h2>
+              <p>
+                Proin orci nisl, posuere viverra erat ut, pellentesque interdum
+                urna. Curabitur eu risus convallis, auctor augue id, pharetra
+                neque. Morbi pretium neque ac varius imperdiet. Aliquam sed
+                sapien eget massa hendrerit aliquet. Integer auctor vel ligula
+                eget faucibus
+              </p>
+              <h2>Soundproof rooms</h2>
+              <p>
+                Donec tincidunt fermentum purus, eu pharetra arcu scelerisque a.
+                Maecenas felis eros, volutpat ac justo non, imperdiet porttitor
+                lorem. Nulla suscipit mi a arcu sollicitudin, sit amet
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 content">
+            <h6 class="topText right">Warm & Cozy Interior</h6>
+            <div class="col-md-6 col-sm-12 p-1 mt-4">
+              <h2>High quality materials</h2>
+              <p>
+                Proin orci nisl, posuere viverra erat ut, pellentesque interdum
+                urna. Curabitur eu risus convallis, auctor augue id, pharetra
+                neque. Morbi pretium neque ac varius imperdiet. Aliquam sed
+                sapien eget massa hendrerit aliquet. Integer auctor vel ligula
+                eget faucibus
+              </p>
+            </div>
+            <div
+              class="col-md-6 col-sm-12 ms-lg-4 ms-md-0 pe-lg-5 pe-md-0 pe-sm-0 mt-md-4 mt-sm-2"
+            >
+              <img src="img/gallery-02.jpg" alt="img2" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Design-End -->
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 header">
+            <h2>Gallery.</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel carousel-dark slide"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="img/gallery-big-01.jpg"
+                    draggable="false"
+                    class="d-block"
+                    alt="..."
+                  />
+                  <h6 class="topText">Front View</h6>
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></button>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/gallery-big-02.jpg"
+                    draggable="false"
+                    class="d-block"
+                    alt="..."
+                  />
+                  <h6 class="topText">Back View</h6>
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="0"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="1"
+                      class="active"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></button>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/gallery-big-03.jpg"
+                    draggable="false"
+                    class="d-block"
+                    alt="..."
+                  />
+                  <h6 class="topText">Garage</h6>
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="0"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="2"
+                      class="active"
+                      aria-label="Slide 3"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gallery-End -->
+    <!-- Pricing -->
+    <section id="pricing">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 header">
+            <h2>Pricing.</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row d-flex justify-content-evenly">
+          <div class="col-lg-3 col-sm-12 card-holder info">
+            <div class="cards">
+              <h2>Choose your apartment</h2>
+              <p>Old price</p>
+              <h3>New price</h3>
+              <ul>
+                <li>Apartment area</li>
+                <hr />
+                <li>Balcony area</li>
+                <hr />
+                <li>Parking place</li>
+                <hr />
+                <li>Free apartments</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-12 card-holder">
+            <div class="cards">
+              <h2>2 Room Apartment</h2>
+              <p>$96,000</p>
+              <h3>$76,000</h3>
+              <ul>
+                <li>83m²</li>
+                <hr />
+                <li>26m²</li>
+                <hr />
+                <li>X</li>
+                <hr />
+                <li>12</li>
+              </ul>
+              <a href="#stages">Apartment Details</a>
+              <div class="btn-holder">
+                <a href="#contact" class="Cbtn">Contact Us</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-12 card-holder best">
+            <div class="cards">
+              <div class="offer">Best value for money</div>
+              <h2>3 Room Apartment</h2>
+              <p>$99,000</p>
+              <h3>$79,000</h3>
+              <ul>
+                <li>135m²</li>
+                <hr />
+                <li>45m²</li>
+                <hr />
+                <li>✓</li>
+                <hr />
+                <li>7</li>
+              </ul>
+              <a href="#stages">Apartment Details</a>
+              <div class="btn-holder best">
+                <a href="#contact" class="Cbtn">Contact Us</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-12 card-holder">
+            <div class="cards">
+              <h2>4 Room Apartment</h2>
+              <p>$129,000</p>
+              <h3>$109,000</h3>
+              <ul>
+                <li>198m²</li>
+                <hr />
+                <li>67m²</li>
+                <hr />
+                <li>✓</li>
+                <hr />
+                <li>9</li>
+              </ul>
+              <a href="#stages">Apartment Details</a>
+              <div class="btn-holder">
+                <a href="#contact" class="Cbtn">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pricing-End -->
+    <!-- FAQ -->
+    <section id="faq">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 header">
+            <h2>FAQ.</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <div class="col-lg-8 col-sm-12">
+            <div class="text-holder">
+              <div class="naslov">
+                <h2>Quite and peaceful location near the nature</h2>
+                <h2 class="sign">+</h2>
+              </div>
+              <p>
+                Nunc vel erat eget dolor lobortis venenatis eget in nulla.
+                Aliquam sodales elit in augue finibus, at sagittis enim
+                vestibulum. Vivamus varius, velit sollicitudin interdum cursus,
+                augue purus dignissim quam, dictum commodo lorem ante quis
+                neque. Etiam massa erat, tristique id semper ac, placerat ac
+                magna.
+              </p>
+            </div>
+            <div class="text-holder">
+              <div class="naslov">
+                <h2>Shopping and fitness center right inside the complex</h2>
+                <h2 class="sign">+</h2>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                dapibus elit nibh, id scelerisque tortor ornare at. Maecenas
+                finibus purus id massa viverra, a commodo enim imperdiet. Donec
+                ac magna non nisi hendrerit facilisis. In a nisl mi. Fusce
+                vulputate sodales laoreet. Phasellus et urna risus.
+              </p>
+            </div>
+            <div class="text-holder">
+              <div class="naslov">
+                <h2>Lot of parking places, even for your visitors</h2>
+                <h2 class="sign">+</h2>
+              </div>
+              <p>
+                Donec ut pellentesque nunc. Maecenas malesuada et eros sed
+                tristique. Cras condimentum in ligula ac efficitur. Vestibulum
+                tempor leo nec molestie bibendum. Maecenas molestie ligula id
+                efficitur venenatis. Maecenas venenatis mauris in erat
+                imperdiet, et suscipit ipsum pretium.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12">
+            <div class="subscribe">
+              <h2>Subscribe to our newsletter to get the latest information</h2>
+              <form>
+                <input
+                  type="text"
+                  name=""
+                  id="faqEmail"
+                  placeholder="Your email"
+                />
+                <input id="faqSubmit" type="submit" value="→" />
+              </form>
+              <p>*Only relevant information, no spam</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="slider">
+              <div
+                class="slider-item"
+                style="
+                  background: linear-gradient(
+                      60deg,
+                      rgba(0, 0, 0, 0.762),
+                      rgba(0, 0, 0, 0.708)
+                    ),
+                    url('/img/bg-01.jpg') center;
+                  background-size: cover;
+                "
+              >
+                <h6>"</h6>
+                <h5>"</h5>
+                <h2>
+                  An absolute dream home! The attention to detail in this real
+                  estate gem is truly exceptional.
+                </h2>
+                <h3>-John Doe</h3>
+                <p>River Side Apartments</p>
+              </div>
+              <div
+                class="slider-item"
+                style="
+                  background: linear-gradient(
+                      60deg,
+                      rgba(0, 0, 0, 0.762),
+                      rgba(0, 0, 0, 0.708)
+                    ),
+                    url('/img/gallery-02.jpg') bottom;
+                  background-size: cover;
+                "
+              >
+                <h6>"</h6>
+                <h5>"</h5>
+                <h2>
+                  Exceptional value for money! This real estate property
+                  exceeded all our expectations.
+                </h2>
+                <h3>-Danny Stevens</h3>
+                <p>LTJ Investments</p>
+              </div>
+              <div
+                class="slider-item"
+                style="
+                  background: linear-gradient(
+                      60deg,
+                      rgba(0, 0, 0, 0.762),
+                      rgba(0, 0, 0, 0.708)
+                    ),
+                    url('/img/gallery-big-02.jpg') center;
+                  background-size: cover;
+                "
+              >
+                <h6>"</h6>
+                <h5>"</h5>
+                <h2>
+                  The perfect blend of luxury and comfort. I couldn't be happier
+                  with this real estate investment.
+                </h2>
+                <h3>-Peter Grains</h3>
+                <p>Archits Company</p>
+              </div>
+              <button id="prevButton"><</button>
+              <button id="nextButton">></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ-End -->
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 header">
+            <h2>Contact.</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12 map">
+            <h3>Map</h3>
+            <div id="map" style="width: 100%; height: 205px"></div>
+            <div class="col-12"></div>
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6 col-sm-12 address">
+                  <h3>Address</h3>
+                  <p>
+                    Your Company
+                    <br />
+                    4877 Spruce Drive
+                    <br />
+                    West Newton, PA 15089
+                  </p>
+                  <p>
+                    +1 (734) 123-4567
+                    <br />
+                    hello@example.com
+                  </p>
+                </div>
+                <div class="col-lg-6 col-sm-12 social">
+                  <h3>Social</h3>
+                  <div class="socials">
+                    <i class="fa-brands fa-facebook"></i>
+                    <span>Facebook</span>
+                  </div>
+                  <div class="socials">
+                    <i class="fa-brands fa-twitter"></i>
+                    <span>Twitter</span>
+                  </div>
+                  <div class="socials">
+                    <i class="fa-brands fa-instagram"></i>
+                    <span>Instagram</span>
+                  </div>
+                  <div class="socials">
+                    <i class="fa-brands fa-skype"></i>
+                    <span>Skype</span>
+                  </div>
+                  <br />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 contact">
+            <h3>Contact form</h3>
+            <form>
+              <div class="inputs">
+                <input type="text" placeholder="Your Name" />
+                <input type="email" placeholder="Your Email" />
+              </div>
+              <textarea
+                name="text"
+                id="text"
+                placeholder="Your Text"
+              ></textarea>
+              <input type="submit" value="Send a Message" />
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="row small">
+            <div class="imagegroup" style="animation-delay: 1s">
+              <img src="img/logo-1.png" draggable="false" alt="1" />
+              <img src="img/logo-2.png" draggable="false" alt="2" />
+              <img src="img/logo-3.png" draggable="false" alt="3" />
+              <img src="img/logo-4.png" draggable="false" alt="4" />
+              <img src="img/logo-5.png" draggable="false" alt="5" />
+              <img src="img/logo-6.png" draggable="false" alt="6" />
+              <img src="img/logo-7.png" draggable="false" alt="7" />
+              <img src="img/logo-8.png" draggable="false" alt="8" />
+              <img src="img/logo-1.png" draggable="false" alt="1" />
+              <img src="img/logo-2.png" draggable="false" alt="2" />
+              <img src="img/logo-3.png" draggable="false" alt="3" />
+              <img src="img/logo-4.png" draggable="false" alt="4" />
+              <img src="img/logo-5.png" draggable="false" alt="5" />
+              <img src="img/logo-6.png" draggable="false" alt="6" />
+              <img src="img/logo-7.png" draggable="false" alt="7" />
+              <img src="img/logo-8.png" draggable="false" alt="8" />
+              <img src="img/logo-1.png" draggable="false" alt="1" />
+              <img src="img/logo-2.png" draggable="false" alt="2" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact-End -->
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 header">
+            <h2>Propper.</h2>
+            <div class="d-flex justify-content-between">
+              <p>
+                Proin orci nisl, posuere viverra erat ut, pellentesque interdum
+                urna. Curabitur eu risus convallis, auctor augue id, pharetra
+                neque.
+              </p>
+              <h3>
+                +1 (734) 123-4567 <br />
+                hello@archits.com
+              </h3>
+            </div>
+            <p>(C) 2023 All Rights Reserved CojaDev</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>Bonus numbers.</h2>
+            <div class="col-12 numbers">
+              <div class="number">
+                <h3>54</h3>
+                <p>Projects done</p>
+              </div>
+              <div class="number">
+                <h3>21</h3>
+                <p>Employees</p>
+              </div>
+              <div class="number">
+                <h3>48</h3>
+                <p>Satisfied Clients</p>
+              </div>
+              <div class="number">
+                <h3>17</h3>
+                <p>Prices Won</p>
+              </div>
+              <div class="backBtn">
+                <a href="#hero">↑</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer-End -->
+    <script>
+      function initMap() {
+        var myLatLng = { lat: 46.105665, lng: 19.684605 };
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: myLatLng,
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Antona Askerca 56/10',
+        });
+      }
+    </script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYJjs1tVnwR3lZevm0EfNIH0q_SRNsR5k&callback=initMap"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

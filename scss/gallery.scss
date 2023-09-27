@@ -1,0 +1,82 @@
+#gallery {
+  color: black;
+  background-color: white;
+  height: auto;
+
+  button {
+    padding: 3px;
+
+    span {
+      border: 2px solid white;
+      font-weight: 900;
+      &:active {
+        transform: scale(0.98);
+      }
+    }
+  }
+
+  .carousel-inner {
+    max-width: 80%;
+    margin: auto;
+    color: black;
+    overflow: visible;
+
+    .carousel-item {
+      overflow: visible;
+      position: relative;
+      padding-bottom: 80px;
+      .carousel-indicators {
+        margin-bottom: 30px;
+      }
+      .topText {
+        position: absolute;
+        bottom: 0;
+        left: 50%; /* Adjust to center the text horizontally */
+        transform: translateX(-50%); /* Center the text horizontally */
+        padding: 40px;
+        padding-bottom: 50px;
+        padding-top: 20px;
+        border: 15px solid #44444421;
+        background-color: white; /* Add background color for better visibility */
+        z-index: 1; /* Ensure text appears above the image */
+      }
+
+      img {
+        max-height: 60vh;
+        max-width: 100%;
+        margin: auto;
+        display: block; /* Center the image horizontally */
+      }
+    }
+  }
+}
+
+@media (max-width: 968px) {
+  #gallery {
+    button span {
+      filter: brightness(1);
+      margin-bottom: 40px;
+    }
+
+    .carousel-inner {
+      max-width: 100%;
+      .carousel-item {
+        padding-bottom: 80px;
+
+        .topText {
+          left: 0;
+          right: 0;
+          text-align: center;
+          transform: none; /* Reset the horizontal positioning for smaller screens */
+        }
+
+        img {
+          max-height: 65vh;
+          max-width: 100%;
+          margin: auto;
+          display: block;
+        }
+      }
+    }
+  }
+}
