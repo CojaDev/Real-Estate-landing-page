@@ -8,7 +8,7 @@ function proveraPoz() {
   let novaPoz = nav.getBoundingClientRect();
   let ny = novaPoz.y;
   ny = y + window.scrollY;
-  if (ny > y + 500) {
+  if (ny > y + 10) {
     nav.style.background = 'rgba(0, 0, 0, 0.559)';
   } else {
     nav.style.background = 'transparent';
